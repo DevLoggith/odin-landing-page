@@ -32,6 +32,11 @@ a:hover {
 }
 
 .header-img {
+  height: 80px;
   width: 80px;
-  height: auto;
+}
+
+.body-img {
+  height: 300px;
+  width: 300px;
 }
