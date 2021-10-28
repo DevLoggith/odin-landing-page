@@ -1,13 +1,7 @@
 body {
   font-family: 'Montserrat', 'Helvetica', 'sans-serif';
-  margin: 0;
   min-height: 100vh;
-}
-
-header {
-  background-color: #1F2937;
-  display: flex;
-  justify-content: space-between;
+  margin: 0;
 }
 
 ul {
@@ -18,8 +12,8 @@ ul {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: flex-end;
-  gap: 15px;
+  justify-content: space-between;
+  gap: 30px;
 }
 
 a {
@@ -31,7 +25,13 @@ a:hover {
   color: grey;
 }
 
-img {
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1F2937;
+}
+
+.header-img {
   width: 80px;
   height: auto;
 }
