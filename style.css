@@ -1,7 +1,26 @@
+/* || General styles and typography */
+
 body {
   font-family: 'Montserrat', 'Helvetica', 'sans-serif';
   min-height: 100vh;
   margin: 0;
+}
+
+header {
+  display: flex;
+  background-color: #1F2937;
+  color: #E5E7EB;
+  padding: 20px 150px;
+}
+
+h1, h2, h3, p {
+  margin: 0px;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #F9FAF8;
 }
 
 ul {
@@ -17,26 +36,10 @@ ul {
 
 a {
   text-decoration: none;
-  color: #E5E7EB;
-}
-
-a:hover {
-  color: grey;
-}
-
-h2 {
-  font-size: 48px;
-  font-weight: bolder;
   color: #F9FAF8;
-  margin: 0;
 }
 
-header {
-  display: flex;
-  background-color: #1F2937;
-  color: #E5E7EB;
-  padding: 20px 150px;
-}
+/* || Header and main navigation */
 
 .logo {
   height: 80px;
@@ -46,10 +49,20 @@ header {
 .logo-text {
   color: #F9FAF8;
   font-size: 24px;
-  margin: 0;
   display: flex;
   align-items: center;
 }
+
+.nav-links {
+  text-decoration: none;
+  color: #E5E7EB;
+}
+
+.nav-links:hover {
+  color: grey;
+}
+
+/* || Hero section */
 
 .hero {
   display: flex;
@@ -61,21 +74,16 @@ header {
   padding: 20px 150px;
 }
 
-.hero-content {
-  display: flex;
-  flex-direction: column;
-}
-
 .signup-button {
+  text-decoration: none;
   border: 0;
   border-radius: 6px;
-  width: 80px;
-  padding: 4px 7px;
-  color: #F9FAF8;
+  padding: 5px 25px;
   background-color: #3882F6;
 }
 
 .signup-button:hover {
+  text-decoration: none;
   background-color: #0a5ad8;
 }
 
@@ -84,6 +92,8 @@ header {
   width: 300px;
   justify-content: flex-end;
 }
+
+/* || Infographic section */
 
 .main-img {
   height: 100px;
