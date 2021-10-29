@@ -24,8 +24,18 @@ a:hover {
   color: grey;
 }
 
-.header {
+h2 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #F9FAF8;
+  margin: 0;
+}
+
+header {
   display: flex;
+  background-color: #1F2937;
+  color: #E5E7EB;
+  padding: 20px 150px;
 }
 
 .logo {
@@ -34,6 +44,8 @@ a:hover {
 }
 
 .logo-text {
+  color: #F9FAF8;
+  font-size: 24px;
   margin: 0;
   display: flex;
   align-items: center;
@@ -41,9 +53,12 @@ a:hover {
 
 .hero {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
   background-color: #1F2937;
   color: #E5E7EB;
+  padding: 20px 150px;
 }
 
 .hero-content {
@@ -51,12 +66,26 @@ a:hover {
   flex-direction: column;
 }
 
+.signup-button {
+  border: 0;
+  border-radius: 6px;
+  width: 80px;
+  padding: 4px 7px;
+  color: #F9FAF8;
+  background-color: #3882F6;
+}
+
+.signup-button:hover {
+  background-color: #0a5ad8;
+}
+
 .hero-img {
   height: 150px;
   width: 300px;
+  justify-content: flex-end;
 }
 
-.body-img {
+.main-img {
   height: 100px;
   width: 100px;
 }
