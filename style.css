@@ -10,28 +10,30 @@ header {
   display: flex;
   background-color: #1F2937;
   color: #E5E7EB;
-  padding: 20px 150px;
+  padding: 10px 150px 20px;
 }
 
 h1, h2, h3, p {
   margin: 0px;
+  font-weight: 300;
 }
 
 h2 {
   font-size: 48px;
-  font-weight: bolder;
+  line-height: 40pt;
+  font-weight: 700;
   color: #F9FAF8;
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: 700;
 }
 
 ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  font-size: 18px;
-  display: flex;
-  margin-left: auto;
-  align-items: center;
-  gap: 30px;
 }
 
 a {
@@ -56,6 +58,11 @@ a {
 .nav-links {
   text-decoration: none;
   color: #E5E7EB;
+    font-size: 18px;
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+  gap: 30px;
 }
 
 .nav-links:hover {
@@ -71,7 +78,12 @@ a {
   gap: 30px;
   background-color: #1F2937;
   color: #E5E7EB;
-  padding: 20px 150px;
+  padding: 60px 150px 93px;
+}
+
+.hero-disc {
+  margin-bottom: 10px;
+  line-height: 1.5;
 }
 
 .signup-button {
@@ -88,14 +100,25 @@ a {
 }
 
 .hero-img {
-  height: 150px;
-  width: 300px;
+  height: 200px;
+  width: 400px;
   justify-content: flex-end;
 }
 
 /* || Infographic section */
 
+.infographic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 30px 150px;
+  color: #1F2937;
+}
+
 .main-img {
   height: 100px;
   width: 100px;
+  border: 2px solid #3882F6;
+  border-radius: 8px;
 }
