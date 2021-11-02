@@ -109,6 +109,7 @@ footer {
   border-radius: 6px;
   padding: 5px 25px;
   background-color: #3882F6;
+  box-shadow: 5px 5px 8px #0d1116;
 }
 
 .signup-button:hover {
@@ -117,9 +118,10 @@ footer {
 }
 
 .hero-img {
-  height: 200px;
+  height: auto;
   width: 400px;
   justify-content: flex-end;
+  box-shadow: 5px 5px 8px 5px #0d1116;
 }
 
 /* || Infographic section */
@@ -152,6 +154,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 10px;
   font-weight: 300;
 }
 
@@ -196,6 +199,7 @@ footer {
   width: 97px;
   padding: 5px 25px;
   background-color: #3882F6;
+  box-shadow: 5px 5px 8px #0a5ad8;
 }
 
 .cta-button:hover {
