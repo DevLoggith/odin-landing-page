@@ -31,6 +31,7 @@ h3 {
 }
 
 ul {
+  flex-wrap: wrap;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -58,7 +59,7 @@ a {
 .nav-links {
   text-decoration: none;
   color: #E5E7EB;
-    font-size: 18px;
+  font-size: 18px;
   display: flex;
   margin-left: auto;
   align-items: center;
@@ -74,6 +75,7 @@ a {
 .hero {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   align-items: center;
   gap: 30px;
   background-color: #1F2937;
@@ -116,9 +118,23 @@ a {
   color: #1F2937;
 }
 
-.main-img {
+.infographic-bottom {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 12px;
+  gap: 30px;
+}
+
+.info-img {
   height: 100px;
   width: 100px;
   border: 2px solid #3882F6;
   border-radius: 8px;
+}
+
+.pic-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
