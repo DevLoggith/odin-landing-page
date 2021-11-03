@@ -1,5 +1,4 @@
 # **Landing page project**
-## * ***Currently a work in progress*** *
   
 A landing page created during The Odin Project [curriculum](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/landing-page) used to display and solidify my knowledge of **HTML foundations**, **CSS foundations**, and **Flexbox** design. This layout was recreated following the provided design which you can see here:
 
