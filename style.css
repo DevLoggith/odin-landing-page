@@ -142,7 +142,7 @@ footer {
   display: flex;
   justify-content: center;
   text-align: center;
-  font-size: 12px;
+  font-size: 14px;
   gap: 30px;
 }
 
@@ -151,6 +151,11 @@ footer {
   width: auto;
   border: 2px solid #3882F6;
   border-radius: 8px;
+  transition: transform .5s;
+}
+
+.info-img:hover {
+  transform: scale(1.75)
 }
 
 .pic-text {
