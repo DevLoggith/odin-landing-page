@@ -62,6 +62,7 @@ footer {
 .logo {
   height: 80px;
   width: 80px;
+  filter: drop-shadow(5px 5px 3px #0d1116);
 }
 
 .logo-text {
