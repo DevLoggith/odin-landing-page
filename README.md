@@ -1,6 +1,6 @@
 # **Landing page project**
   
-A landing page [(live here)](https://github.com/DevLoggith/odin-landing-page/deployments/activity_log?environment=github-pages) created during The Odin Project [curriculum](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/landing-page) used to display and solidify my knowledge of **HTML foundations**, **CSS foundations**, and **Flexbox** design. This layout was recreated following the provided design which you can see here:
+A landing page [(live here)](https://devloggith.github.io/odin-landing-page) created during The Odin Project [curriculum](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/landing-page) used to display and solidify my knowledge of **HTML foundations**, **CSS foundations**, and **Flexbox** design. This layout was recreated following the provided design which you can see here:
 
 <img src="/images/reference-imgs/odin-project.png" alt="Landing page project design layout" width=500>
 
